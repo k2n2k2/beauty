@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공지사항</title>
+
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/down.css">
+    <link rel="stylesheet" href="css/notic.css">
+
+    <link rel="stylesheet" href="css/query.css">
+
+    <link rel="shortcut icon" href="images/icon_logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/top.js"></script>
+    <script src="js/notic.js"></script>
+
+</head>
+
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+
+    <!-- 상단메뉴-->
+    <div id="wrap_header">
+        <div id="header">
+            <p><img src="images/top_mymenu.jpg"><a href="log_in.html">로그인</a></p>
+            <p><a href="jo_in.html">회원가입</a></p>
+            <p><img src="images/top_buy.jpg"><a href="shoppingbasket.html">장바구니</a></p>
+            <p><a href="non.html">비회원주문조회</a></p>
+            <p><a href="notfood.html">안먹는음식제외</a></p>
+        </div>
+    </div>
+
+    <!-- 상단로고 -->
+    <div id="wrap_logo">
+        <div id="logo">
+
+            <p class="img"><a href="kukmain.html">
+                    <img src="images/top_logo.jpg"></a></p>
+            <p class="txt">
+                <input type="search" placeholder="# 요리를 입력하세요"></input>
+            </p>
+            <p class="txt1"><span>새벽발송가능</span>
+                <br>(전일 오후 10시 이전 주문시)
+            </p>
+
+
+
+        </div>
+    </div>
+
+    <!-- 클릭메뉴 -->
+    <div id="wrap_menu">
+        <div id="menu">
+            <ul class="txt">
+                <li><a href="story.html">집쿡스토리</a>
+                    <ul class="sub">
+                        <li><a href="brand.html">브랜드</a></li>
+                        <li><a href="bi.html">BI</a></li>
+                        <li><a href="map.html">오시는길</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="menu.html">메뉴소개</a>
+                    <ul class="sub">
+                        <li><a href="best.html">베스트메뉴</a></li>
+                        <li><a href="mainmenu.html">메인메뉴</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="store.html">매장</a>
+                    <ul class="sub">
+                        <li><a href="find.html">매장찾기</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="franchise.html">창업안내</a>
+                    <ul class="sub">
+                        <li><a href="explanation.html">창업안내</a></li>
+                        <li><a href="interior.html">인테리어</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="news.html">집쿡소식</a>
+                    <ul class="sub">
+                        <li><a href="notic.html">공지사항</a></li>
+                        <li><a href="event.html">이벤트</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="info.html">채용</a>
+                    <ul class="sub">
+                        <li><a href="recruit.html">채용안내</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- 서브메뉴나오게 -->
+    <!-- <ul class="sub">
+                <li><a href="#a">메뉴1</a></li>
+                <li><a href="#a">메뉴2</a></li>
+                <li><a href="#a">메뉴3</a></li>
+            </ul>
+        </a>
+       </p>
+            
+        </p>
+            <p class="txt"><a href="mainmenu.html">메뉴소개</a></p>
+            <p class="txt"><a href=#a>매장</a></p>
+            <p class="txt"><a href=#a>창업안내</a></p>
+            <p class="txt"><a href=#a>집쿡소식</a></p>
+            <p class="txt"><a href=#a>채용</a></p> -->
+
+    <!-- 공지사항 -->
+    <div id="notic">
+        <img src="images/notic_1.jpg">
+        <div class="box">
+        
+        <p class="txt">JIBKUK NEWS</p>
+        <h2>JIBKUK NOTICE</h2>
+    </div>
+    </div>
+    <!-- 집쿡 공지사항 -->
+    <div id="notice">
+        
+        <h2>집쿡 공지사항</h2>
+        <p class="txt">집쿡 소식을 알려드립니다.</p>
+        <ul class="t1">
+
+            <li>
+                <select>
+                    <option>제목</option>
+                    <option>내용</option>
+                    <option>작성자</option>
+
+                </select>
+
+                <input type="search" placeholder="검색어를 입력하세요">
+
+
+
+                <button>click</button>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 공지사항표 -->
+    <div id="table">
+        <div class="pyo">
+            <ul>
+                <li>
+                    <p class="nu">번호</p>
+                    <p class="ti">제목</p>
+                    <p class="wr">작성자</p>
+                    <p class="da">날짜</p>
+
+                </li>
+
+                <li class="cl">
+                    <p class="a">공지</p>
+                    <p class="b">집쿡 신메뉴 출시 기념<i class="fa-solid fa-angle-down"></i></p>
+                    
+                </li>
+
+                <p class="c">
+                    "안녕하세요
+                    집쿡입니다."
+                    <br>항상 저희 집쿡을 관심있게 
+                    봐주셔서 감사합니다.
+                    고객님들의 성원에 힘입에 신메뉴를 
+                    출시하게 되었습니다.
+                    <br>출시 이벤트로 <span>'선착순
+                    100분'</span>께 무료로 제공하오니 고객
+                    여러분들의 많은 응원과 관심 부탁드립니다.
+                </p>
+                
+              
+
+
+
+
+                <li class="cl">
+                    <p class="a">3</p>
+                    <p class="b">집쿡 
+                        조류인풀루엔자 관련 공지<i class="fa-solid fa-angle-down"></i></p>
+                </li>
+
+                <p class="c">안녕하세요, 
+                    집쿡입니다.
+                    <br>최근 타업체에서 조류 인플루엔자가 검출된 닭을 사용했다는 보도를 받아 고객님들의
+                    <br>걱정이 많으실 것 같습니다.
+                    하지만 당사에서 사용하는 조류는 직접 방목하여 키웠으며 일절 닭의 성장을 
+                    촉진시키는 어떠한 약품을 쓰지 않았음을 전해드립니다. 
+                    <br>고객 여러분들께 심려를 끼쳐드려 죄송하며,
+                  앞으로 유통과 음식위생을 더욱 강화하여 고객님들이 안심하고 드실 수 있도록 노력하겠습니다.</p>
+            </li>
+              
+
+                <li class="cl">
+                    <p class="a">2</p>
+                    <p class="b">집쿡 원산지표시<i class="fa-solid fa-angle-down"></i></p>
+                </li>
+                <p class="c">
+                    안녕하세요, 집쿡입니다.
+                    <br>일부 매장에서 원산지를 속이고
+                    재료를 파는 일이 발생하고 있습니다.
+                  <br> 저희 당사는 모든 재료를 국내에서 직접
+                  키우고 재배한 국산만을 고집하오니 
+                  <br>안심하시길 바랍니다.
+                  <br>앞으로도  늘 그래왔듯이 거짓말
+                 하지 않는 집쿡이 되겠습니다.               </p>
+
+                </li>
+
+
+                </li>
+
+                <li class="cl">
+                    <p class="a">1</p>
+                    <p class="b">집쿡 포인트제 도입안내 <i class="fa-solid fa-angle-down"></i></p>
+                </li>
+                <p class="c">
+                    안녕하세요, 집쿡입니다.
+                <br>항상 저희 집쿡을 관심있게
+                지켜봐주셔서 감사합니다.
+                <br>고객 여러분께서 편한 마음
+            으로 집쿡을 즐기실 수 있도록
+          <br>집쿡 포인트제를 도입하오니  
+         많은 성원과 관심 부탁드립니다.
+         </p>
+                </li>
+
+                
+
+
+        </div>
+
+    </div>
+    </div>
+    <!-- <ul class="t1">
+
+                <li>
+                    <select>
+                        <option>제목</option>
+                        <option>내용</option>
+                        <option>작성자</option>
+
+                    </select>
+
+                    <input type="search" placeholder="검색어를 입력하세요">
+
+
+
+                    <button>click</button>
+                </li>
+            </ul> -->
+    <!-- 공지사항메뉴 -->
+    <!-- <div class="notice_menu">
+            <ul>
+                <li>
+                    <p class="num">번호</p>
+                    <p class="title">제목</p>
+                    <p class="writer">작성자</p>
+                    <p class="date">날짜</p>
+                </li>
+
+                <li>
+                    <p class="noc">공지</p>
+                    <p class="txt">집쿡 신메뉴 알러지
+                        관련공지
+                    </p>
+                    <p class="wri">집쿡</p>
+                    <p class="day">04.11</p>
+                </li>
+
+                <li>
+                    <p class="three">3</p>
+                    <p class="txt1">집쿡 메뉴
+                        원산지표시
+                    </p>
+                    <p class="wri_1">집쿡마스터</p>
+                    <p class="day_1">04.01</p>
+                </li>
+
+                <li>
+                    <p class="second">2</p>
+                    <p class="txt2">집쿡
+                        영양성분표
+
+                    </p>
+                    <p class="wri_2">집쿡영양사</p>
+                    <p class="day_2">03.30</p>
+                </li>
+
+                <li>
+                    <p class="first">1</p>
+                    <p class="txt3">집쿡
+                        포인트제 도입안내
+
+                    </p>
+                    <p class="wri_3">집쿡매니저</p>
+                    <p class="day_3">03.15</p>
+                </li>
+
+
+        </div>
+
+    </div>
+    </li>
+
+    </ul>
+
+
+    </div>
+ -->
+
+
+
+    <!-- </div> -->
+
+
+
+
+
+    <!-- 공통 하단메뉴 -->
+    <!-- 고객센터 -->
+    <div id="customer">
+        <h2>고객센터</h2>
+        <p class="txt">
+            집쿡에게 문의 하세요
+        </p>
+
+        <ul>
+
+            <li>
+                <h3>고객의 소리</h3>
+                <img src="images/qna_pic1.jpg">
+                <a href="#a">바로가기</a>
+            </li>
+            <li>
+                <h3>챗봇문의</h3>
+                <img src="images/qna_pic2.jpg">
+                <a href="#a">바로가기</a>
+            </li>
+            <li>
+                <h3>자주찾는 질문</h3>
+                <img src="images/qna_pic3.jpg">
+                <a href="#a">바로가기</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 하단메뉴 -->
+    <div id="wrap_down">
+        <div id="down">
+            <p class="txt"><a href="#a">집쿡약관</a></p>
+            <p class="txt"><a href="#a">집쿡이용약관</a></p>
+            <p class="txt"><a href="#a">전자금융거래이용약관</a></p>
+            <p class="txt"><a href="#a">개인정보처리방침</a></p>
+            <p class="txt"><a href="#a">청소년보호정책</a></p>
+            <p class="txt"><a href="#a">권리보호센터</a></p>
+        </div>
+    </div>
+
+
+    <!-- 카피라이트 -->
+    <div id="wrap_footer">
+        <div id="footer">
+            <ul>
+                <li>
+                    <h2>집쿡㈜</h2>
+                    <p class="txt">
+                        사업자 등록번호 220-81-62517
+                        <span></span>
+                        통신판매업신고번호 2006-경기성남-0692호
+                        <br>
+                        대표이사 최수연
+                        <span></span>
+                        경기도 성남시 분당구 정자일로 95,집쿡
+                        1784, 13561
+                        <br>
+                        전화 1588-3819
+                        <span></span>
+                        이메일 <a href="mailto" target="_blank">jibkuk@jibkuk.co.kr</a>
+                        <span></span>
+                        사업자등록정보 확인
+                        <br>
+                        <br>
+                        COPYRIGHT ⒞ 2025 집쿡㈜ ALL RIGHT RESERVED.
+
+                    </p>
+                </li>
+                <li>
+                    <h2>고객센터</h2>
+                    <p class="txt">
+                        강원도 춘천시 퇴계로 89 강원전문건설회관
+                        <br> 전화 1588-3819
+                        결제도용신고
+                        1588-3816
+                        <br>
+                        <a href="#a">1:1문의바로가기</a>
+                        전화 1588-3819
+
+                    </p>
+                </li>
+                <li>
+                    <h2>전자금융거래 분쟁처리</h2>
+                    <p class="txt">
+                        전화 1588-3816
+                        <br>
+                        <a href="#a">1:1문의바로가기</a>
+                    </p>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- 팝업배너 -->
+    <div id="popup">
+        <img src="images/popup.png" usemap="#popup">
+    </div>
+
+    <map name="popup">
+        <area shape="rect" coords="130, 15, 180, 70" href="#a" onclick="document.getElementById('popup').
+        style.display='none'">
+    </map>
+    <!-- 공통하단영역 -->
+
+<!-- top버튼 -->
+<div id="top_btn">
+    <a href="#">TOP</a>
+</div>
+
+
+</body>
+
+</body>
+
+</html>
