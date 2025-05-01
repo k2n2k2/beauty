@@ -11,33 +11,11 @@
     height: 500px;
     margin: 0 auto;
     position: relative;
+    
+    
 }
 
 
-
-#main h2 {
-    display: inline-block;
-
-    color: #333333;
-    font-size: 90px;
-    letter-spacing: -1px;
-    font-family:'BMYEONSUNG';
-    font-weight: normal;
-
-    position: absolute;
-    left: 60px;
-    top: 135px;
-
-    text-align: right;
-}
-
-#main h2 span {
-    color: #ef4c14;
-    font-size: 78px;
-    letter-spacing: 2px;
-    font-family: 'BMYEONSUNG';
-    font-weight: normal;
-}
 
 #main p a {
     color: #fff;
@@ -51,8 +29,9 @@
     margin-top: 30px;
 
     position: absolute;
-    left:250px;
-    top:330px;
+    right:30px;
+    top:50%
+    
 }
 
 #main p a:hover {
@@ -66,41 +45,16 @@
 #main ul {
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+   
+    
 }
 
-#main ul li:first-child {
-    width: 549px;
-    height: 544px;
-    border: 1px solid #ddd;
-    position: absolute;
-    left: 430px;
-    top: 0px;
-}
 
-#main ul li:nth-child(2) {
-    width: 408px;
-    height: 276px;
-    border: 1px solid #ddd;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-#main ul li:last-child {
-    width: 356px;
-    height: 199px;
-    border: 1px solid #ddd;
-    position: absolute;
-    right: 52px;
-    top: 290px;
-}
-
-#main ul li:hover {
+/*#main ul li:hover { 
     transform: scale(1.1);
     transition: 1s;
-    cursor: pointer;
-}
+    cursor: pointer;}*/
+
 
 
 

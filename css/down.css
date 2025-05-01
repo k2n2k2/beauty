@@ -173,8 +173,10 @@
 /*팝업배너*/
 #popup {
     position: fixed;
-    left: 0%;
-    top: 200px;
+    left: 10px;
+    top: 300px;
+    
+    
 
     animation-name: popup;
     animation-duration: 1.1s;
@@ -184,6 +186,7 @@
    
 }
 
+#popup img {width: 100px;}
 @keyframes popup {
     0% {
         transform: translateY(-20px);
