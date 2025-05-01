@@ -1,0 +1,67 @@
+/* 브랜드메인사진 */
+#brand{width: 1300px;height: 405px;
+background: #f6f2f1; margin: 0 auto; 
+box-sizing: border-box;}
+#brand ul li {display: flex;
+justify-content: center; align-items: center;}
+#brand ul li img { height: 350px;
+margin-top: 20px;}
+
+/* 집쿡스토리 */
+#story{width: 1300px; height: 110px;
+margin: 0 auto; background:#fff;
+position: relative;
+}
+#story h2.title {color: #414141; font-size: 33px;
+letter-spacing: -3px;  box-sizing: border-box;  padding-top: 60px;
+border-bottom: 1px solid #ddd;
+}
+#story p.img {position: absolute; right: 270px; top:20px;}
+#story p.txt1 {position: absolute; right: 150px; top:20px;}
+#story p.txt2 {position: absolute; right: 50px; top:20px;}
+
+/* 브랜드중간 */
+#brandmain {width: 1300px;
+height: 620px; margin: 0 auto;
+background:#fff; display: flex;
+justify-content: center;}
+
+#brandconcept {width: 1300px;
+height: 960px; margin: 0 auto;
+background: #fff; box-sizing: border-box;
+position: relative;}
+
+#brandconcept h2 {font-size: 37px;
+letter-spacing: -3px; color: #1c1c1a;
+;padding-top: 50px;}
+#brandconcept h2 span {font-size: 39px;
+    letter-spacing: -3px; color: #1c1c1a;
+  }
+
+  #brandconcept pre {font-size: 16px; letter-spacing: -1px;
+color: #a2a2a2;
+padding-top: 70px;}
+#brandconcept p.img {position: absolute; right: 10px; top:50px;
+}
+#brandconcept p.banner {margin-left: 20px;}
+
+/* 매장인테리어 */
+#brnadinter {width: 1300px; height: 890px;
+margin: 0 auto; background: #fff;text-align: center;
+}
+
+#brnadinter  h2 {font-size: 46px; color: #222222;
+letter-spacing: -4px;
+}
+#brnadinter p.line {width: 1px; height: 70px;
+background:  #ddd; margin: 10px auto
+;
+font-weight: bold;}
+
+
+#brnadinter div.slide p {margin-top: 70px;
+    box-sizing: border-box;}
+    
+
+
+

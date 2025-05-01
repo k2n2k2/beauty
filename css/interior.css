@@ -1,0 +1,233 @@
+
+
+/* 인테리어메인사진 */
+#interior_main{
+    width: 1300px;
+    height: 360px;
+    background: yellow;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+#interior_main div.box {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 1300px;
+    height: 360px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    opacity: 0;
+    
+
+    
+}
+
+#interior_main div.box p.txt {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: -2px;
+    margin-top: 100px;
+   
+}
+
+#interior_main div.box h2 {
+    color: #fff;
+    font-size: 58px;
+    letter-spacing: -4px;
+   
+}
+
+#interior_main:hover div.box {
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+/* 스토어 */
+#store {
+    width: 1300px;
+    
+    background:#fff;
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+
+#store ul {
+    width: 1300px;
+    height: 714px;
+    
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+#store ul li:first-child
+{
+    width: 630px;
+    height: 714px;
+    
+}
+
+#store ul li:nth-child(2){
+    width: 460px;
+    height: 355px;
+    background:rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 46px;
+    top: 40px;
+}
+
+#store ul li:nth-child(2) h2{
+    color: #fff;
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 0.7px;
+    padding-top: 30px;
+}
+
+
+#store ul li:nth-child(2) p.txt{
+    color: #fff;
+   text-align: center;
+    font-size: 19px;
+    letter-spacing: -1px;
+    padding-top: 10px;
+    
+}
+
+#store ul li:nth-child(2) p.txt
+span{
+    color: #fff;
+    
+    font-size: 14px;
+    letter-spacing: -1px;
+    
+    
+}
+
+#store ul li:nth-child(3)
+{
+    width: 630px;
+    height: 350px;
+   
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+#store ul li:nth-child(4)
+{
+    width: 630px;
+    height: 180px;
+   
+    position: absolute;
+    right: 10px;
+    top: 350px;
+    padding-top: 30px;
+}
+
+#store ul li:nth-child(4) p.txt1{
+    color: #222222;
+   text-align: center;
+    font-size: 33px;
+    letter-spacing: 2px;
+   text-align: center;
+   font-weight: bold;
+}
+
+#store ul li:nth-child(4) p.txt1
+span{
+    color:#666666;
+    
+    font-size: 19px;
+    letter-spacing: -1px;
+    font-weight: normal;
+    
+    
+}
+
+
+#store ul li:nth-child(5)
+{
+    width: 309px;
+    height: 174px;
+   
+    position: absolute;
+    right: 330px;
+    top:540px;
+   
+    
+}
+
+#store ul li:nth-child(6)
+{
+    width: 309px;
+    height: 174px;
+   
+    position: absolute;
+    right: 10px;
+    top:540px;
+   
+    
+}
+
+/* 외부인테리어 */
+#exterior {
+    width: 1300px;
+    height: 565px;
+    background:#fff;
+    margin: 0 auto;
+}
+
+#exterior ul {
+    width: 1283px;
+    height: 279px;
+   
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#exterior ul li {
+    width: 406px;
+    height: 279px;
+  
+}
+
+#exterior ul li h2 {
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding-top: 30px;
+}
+
+#exterior ul li p.txt {
+    color: #010101;
+    font-size: 19px;
+    letter-spacing: -1px;
+    
+}
+
+#exterior ul li p.txt span {
+    color: #6b6b6b;
+    font-size: 12px;
+    letter-spacing: -1px;
+   
+}
+
+#exterior ul li:last-child {
+    margin-left: 60px;
+}
+
+
+    
+   
+
+
+
+
+

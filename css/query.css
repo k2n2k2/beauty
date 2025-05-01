@@ -1,0 +1,1109 @@
+/* 테블릿 버전 */
+@media all and (max-width:1024px) {
+    #wrap_header {
+        background: #fff;
+    }
+
+    #header {
+        width: 100%;
+
+    }
+
+    /* 상단로고 테블릿 */
+    #logo {
+        width: 100%;
+        background: #fff;
+    }
+
+    #logo p.txt1 span {
+        font-size: 12px;
+    }
+
+    #logo p.txt1 {
+        font-size: 10px;
+    }
+
+    #logo p.txt input {
+        width: 90%;
+        height: 30px;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        border: 1px solid #ddd;
+        background: url(../images/top_search_logo.jpg)no-repeat center right;
+        cursor: pointer;
+    }
+
+    /* 상단메뉴 태블릿 */
+    #menu {
+        width: 100%;
+        height: auto;
+        background: #a3a099;
+        flex-wrap: wrap;
+    }
+
+    #menu p.txt {
+        width: calc(100%/3);
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* 메인이미지 태블릿 */
+    #main {
+        width: 100%;
+        height: auto;
+        background: #ebe8e2;
+        position: relative;
+    }
+    #main h2 {
+        padding: 30px;
+        background: rgba(255,255,255,0.5);
+        text-align: center;
+
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+
+    
+
+    #main ul {
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        background: yellow;
+    }
+    #main ul li img {
+        width: 100%;
+        height: 100%;
+    }
+    #main ul li:first-child {
+        position: static;
+        width: 50%;
+        height: 400px;
+        border: 0;
+        
+      
+    }
+
+    #main ul li:nth-child(2) {
+        position: static;
+        width: 50%;
+        height: 400px;
+    }
+
+    #main ul li:last-child {
+        display: none;
+    }
+
+    #main ul li:hover {
+        transform: scale(1);
+    }
+
+    #main h2 {
+        font-size: 70px;
+        z-index: 2;
+    }
+
+    #main h2 span {
+        font-size: 48px;
+    }
+
+    #main p a {
+       display: none;
+    }
+
+    /* 가성비&첫주문&정기배송 태블릿 */
+    #order {
+        width: 100%;
+        background: #fff;
+    }
+
+    /* 가성비 태블릿 */
+    #order ul li {
+        width: 100%;
+        height: 170px;
+        margin: 50px 20px;
+    }
+
+    #order ul {
+        width: 90%
+    }
+
+    #order ol {
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+    #order ol li {
+        width: 150px;
+        height: 250px;
+        flex-wrap: wrap;
+    }
+
+    #order ul li h2 {
+        color: #333333;
+        left: 50px;
+        top: 70px;
+        font-size: 24px;
+        letter-spacing: -2px;
+        display: block;
+    }
+
+    #order li h2 span {
+        color: #f56294;
+        font-size: 35px;
+        letter-spacing: -1px;
+        font-weight: normal;
+    }
+
+    #order ul li p.txt {
+
+        display: none;
+    }
+
+    #order ul li small.txt {
+
+        display: none;
+    }
+
+    /* 3%추가 태블릿 */
+    #order ul li h3 {
+        display: none;
+    }
+
+    #order ul li h4 {
+        color: #8f1b14;
+        left: 300px;
+        top: 50px;
+        font-size: 30px;
+        letter-spacing: -2px;
+    }
+
+    #order ul li h4 span {
+        color: #333333;
+    }
+
+    /* 정기배송 태블릿 */
+    #order ol li {
+        height: 230px;
+    }
+    #order ol li p.txt {
+        font-size: 13px;
+    }
+    #order ol li p.txt span {
+        display: block;
+        font-size: 13px;
+    }
+    #order ol li p.img {
+        height: 150px;
+    }
+
+    /* 적극 추천 태블릿 */
+
+    #recommend {
+        width: 100%;
+        background: #fff;
+    }
+
+    #recommend ul li {
+        width: 750px;
+        height: 350px;
+        background: #f3f3f3;
+        position: relative;
+    }
+
+    #recommend ul li h2 {
+        color: #333333;
+        font-size: 20px;
+        letter-spacing: -2px;
+        position: absolute;
+        top: 60px;
+        left: 250px;
+    }
+
+    #recommend ul li p.star1 {
+        flex-wrap: wrap;
+        position: absolute;
+        top: 40px;
+        left: 385px;
+        color: #f26c4f;
+    }
+
+    #recommend ul li p.star2 {
+        flex-wrap: wrap;
+        position: absolute;
+        top: 40px;
+        left: 410px;
+        color: #f26c4f;
+    }
+
+    #recommend ul li p.star3 {
+        flex-wrap: wrap;
+        position: absolute;
+        top: 40px;
+        left: 432px;
+        color: #f26c4f;
+    }
+
+    #recommend ul li p.star4 {
+        flex-wrap: wrap;
+        position: absolute;
+        top: 40px;
+        left: 455px;
+        color: #f26c4f;
+    }
+
+    #recommend p.txt1 {
+        color: #333333;
+        font-size: 17px;
+        letter-spacing: -1px;
+        position: absolute;
+        font-weight: bold;
+        left: 145px;
+        top: 250px;
+    }
+
+    #recommend p.txt2 {
+        color: #333333;
+        font-size: 17px;
+        letter-spacing: -1px;
+        position: absolute;
+        font-weight: bold;
+        left: 310px;
+        top: 250px;
+    }
+
+    #recommend p.txt3 {
+        color: #333333;
+        font-size: 17px;
+        letter-spacing: -1px;
+        position: absolute;
+        font-weight: bold;
+        left: 502px;
+        top: 250px;
+    }
+
+    /* 3개배너 태블릿 */
+    #banner {
+        width: 100%;
+        background: #fff;
+    }
+
+    #banner ul li {
+        height: 80px;
+        width: 250px;
+    }
+
+    #banner ul li p {
+        font-size: 13px;
+    }
+
+    #banner ul li p span {
+        font-size: 15px;
+    }
+
+    /* 요리철학 태블릿 */
+    #homecook {
+        width: 100%;
+        background: #fff;
+    }
+
+    #homecook ul li:first-child {
+        height: 300px;
+        width: 400px;
+        z-index: 2;
+        top: 10px;
+        box-sizing: border-box;
+    }
+
+    #homecook ul li h1 {
+        font-size: 3vw;
+    }
+
+    #homecook ul li h2 {
+        font-size: 4vw;
+        text-align: center;
+    }
+
+
+    #homecook ul li p {
+        text-align: center;
+    }
+
+    #homecook ul li:nth-child(2) {
+        width: 370px;
+        height: 380px;
+        right: 30px;
+    }
+
+    /* 소식 태블릿 */
+    #news {
+        width: 100%;
+        background: #fff;
+    }
+
+    #news ul li {
+        width: calc(80%/2);
+        height: auto;
+        margin: 10px 40px;
+    }
+
+    #news h2 {
+        font-size: 35px;
+        letter-spacing: -3px;
+    }
+
+    #news p.txt {
+        font-size: 20px;
+        letter-spacing: -2px;
+        color: #777;
+    }
+
+    #news p.txt1 {
+        font-size: 15px;
+        top: 320px;
+        left: 130px;
+    }
+
+    #news p.txt2 {
+        font-size: 15px;
+        top: 320px;
+        right: 90px;
+    }
+
+    #news p.txt3 {
+        font-size: 15px;
+        top: 570px;
+        right: 580px;
+    }
+
+    #news p.txt4 {
+        font-size: 15px;
+        top: 570px;
+        left: 585px;
+    }
+
+    #news p.txt5 {
+        font-size: 15px;
+        bottom: 190px;
+        left: 135px;
+    }
+
+    #news p.txt6 {
+        font-size: 15px;
+
+        bottom: 190px;
+        right: 170px;
+    }
+
+    #news ul li img {
+        width: 250px;
+    }
+
+    /* 동영상 태블릿 */
+    #moving {
+        width: 90%;
+
+    }
+
+
+
+
+    /* 리뷰 태블릿 */
+
+    #review {
+        width: 100%;
+        background: #fff;
+    }
+
+    #review ul li img {
+        width: 100%;
+    }
+
+    #review ul li {
+        width: 200px;
+        height: 450px;
+    }
+
+    #review h2 {
+        font-size: 30px;
+        letter-spacing: -3px;
+        border-top: 5px solid #000;
+    }
+
+    #review p.txt {
+        font-size: 18px;
+        letter-spacing: -1px;
+
+    }
+
+    #review ul li h3 {
+        font-size: 16px;
+        letter-spacing: -1px;
+        top: 200px;
+    }
+
+    #review p.comma {
+        font-size: 45px;
+        top: 220px;
+    }
+
+    #review p.txt1 {
+        font-size: 12px;
+        letter-spacing: -1px;
+    }
+
+    #review p.comma1 {
+        font-size: 45px;
+        top: 400px;
+    }
+
+    #review p.txt2 {
+        font-size: 14px;
+        letter-spacing: -1px;
+    }
+
+    #review p.txt2 small {
+        font-size: 10px;
+        letter-spacing: -1px;
+    }
+
+    /* 고객센터 태블릿 */
+    #customer {
+        width: 100%;
+        background: #fff;
+    }
+
+    #customer h2 {
+        font-size: 35px;
+        letter-spacing: -3px;
+    }
+
+    #customer p.txt {
+        font-size: 20px;
+    }
+
+    #customer ul li {
+        width: 250px;
+        height: 150px;
+    }
+
+    #customer ul li img {
+        width: 100px;
+        height: 90px;
+    }
+
+    #customer ul li a {
+        font-size: 10px;
+        bottom: 5px;
+    }
+
+    #customer ul li h3 {
+        font-size: 16px;
+    }
+
+    /* 하단메뉴 태블릿 */
+    #down {
+        width: 100%;
+        background: #231f20;
+    }
+
+    #down p.txt a {
+        font-size: 16px;
+        letter-spacing: -1px;
+    }
+
+    /* 카피라이트 태블릿 */
+    #footer {
+        width: 100%;
+        background: #fff;
+    }
+
+    #footer ul li p.txt {
+        font-size: 12px;
+        letter-spacing: -1px;
+    }
+
+    #footer ul li p.txt span {
+        font-size: 4px;
+
+    }
+
+    #footer ul li h2 {
+        font-size: 20px;
+        letter-spacing: -2px;
+    }
+
+    #footer ul li:nth-child(1) {
+        width: 400px;
+        height: 165px
+    }
+
+    #footer ul li:nth-child(2) {
+        width: 200px;
+        height: 165px;
+
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* 태블릿끝 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 모바일 버전 */
+@media all and (max-width:768px) {
+    #wrap_header {
+        background: #fff;
+    }
+
+    #header {
+        width: 100%;
+
+    }
+
+    #header {
+        justify-content: center;
+    }
+
+    #header p:nth-child(5) {
+        display: none;
+    }
+
+
+    /* 상단로고 모바일 */
+    #logo {
+        justify-content: center;
+    }
+
+    #logo p.txt input {
+        display: none;
+    }
+
+    #logo p.txt1 {
+        display: none;
+    }
+
+    /* 상단메뉴 모바일 */
+    #menu {
+        width: 100%;
+        background: #a3a099;
+    }
+
+    /* 메인이미지 모바일 */
+    #main {
+        width: 100%;
+        height: 500px;
+        background: #ebe8e2;
+        position: relative;
+    }
+
+    #main ul li {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #main ul li:first-child {
+        width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+        left: 0;
+        top: 0;
+    }
+
+    #main ul li img {
+        width: 100%;
+    }
+
+    #main ul li:nth-child(2) {
+        display: none;
+    }
+
+    #main ul li:last-child {
+        display: none;
+    }
+
+    #main h2 {
+        font-size: 60px;
+        left:50%;
+        top:50%;
+        transform: translate(-50%, -50%);
+       
+    }
+
+    #main h2 span {
+        font-size: 55px;
+    }
+
+    #main p a {
+        display: none;
+     }
+
+    /* 가성비&첫주문&정기배송 모바일 */
+    #order {
+        width: 100%;
+        background: #fff;
+        overflow: hidden;
+    }
+
+    #order ul li {
+        width: 100%;
+        height: 170px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    /* 가성비 모바일 */
+
+    #order ul li h2 {
+        color: #333333;
+        font-size: 20px;
+        letter-spacing: -2px;
+        display: block;
+    }
+
+    #order li h2 span {
+        color: #f56294;
+        font-size: 35px;
+        letter-spacing: -1px;
+        font-weight: bold;
+    }
+
+    #order ul li p.txt {
+        display: none;
+    }
+
+
+    #order ul li small.txt {
+        display: none;
+    }
+
+
+
+    /* 3%추가 모바일 */
+    #order ul {
+        width: 100%;
+    }
+
+    #order ul li h3 {
+        display: none;
+    }
+
+    #order ul li h4 {
+        color: #8f1b14;
+        left: 250px;
+        top: 50px;
+        font-size: 20px;
+        letter-spacing: -2px;
+        font-weight: bold;
+    }
+
+    #order ul li h4 span {
+        color: #333333;
+    }
+
+    /* 정기배송 모바일 */
+    
+
+
+    #order ol {
+        flex-wrap: wrap;
+    }
+    #order ol li {
+        width: calc(90%/2);
+        margin: 20px 0 0;
+    }
+    #order ol li img {
+        max-height: 170px;
+    }
+    #order ol li p.txt span {
+        display: inline-block;
+    }
+    #order ol li p.img {
+        height: 170px;
+    }
+
+
+
+    /* 적극 추천 모바일 */
+
+    #recommend {
+        width: 100%;
+        background: #fff;
+    }
+
+    #recommend ul li {
+        width: 100%;
+        position: relative;
+        background: #f3f3f3;
+
+
+    }
+
+    #recommend ul li img {
+        width: 100%;
+        height: auto;
+    }
+
+    #recommend ul li h2 {
+        color: #333333;
+        font-size: 15px;
+        letter-spacing: -1px;
+        position: absolute;
+        top: 30px;
+        left: 170px;
+    }
+
+    #recommend ul li p.star1 {
+        flex-wrap: wrap;
+        position: absolute;
+        top: 15px;
+        left: 277px;
+        font-size: 10px;
+    }
+
+    #recommend ul li p.star2 {
+        flex-wrap: wrap;
+        position: absolute;
+        top: 15px;
+        left: 295px;
+        font-size: 10px;
+    }
+
+    #recommend ul li p.star3 {
+        flex-wrap: wrap;
+        position: absolute;
+        top: 15px;
+        left: 315px;
+
+        font-size: 10px;
+    }
+
+    #recommend ul li p.star4 {
+        flex-wrap: wrap;
+        position: absolute;
+        top: 15px;
+        left: 333px;
+
+        font-size: 10px;
+    }
+
+    #recommend p.txt1 {
+        font-size: 12px;
+        letter-spacing: -1px;
+        position: absolute;
+        left: 60px;
+        top: 250px;
+    }
+
+    #recommend p.txt2 {
+        font-size: 12px;
+        letter-spacing: -1px;
+        position: absolute;
+        left: 230px;
+        top: 250px;
+    }
+
+    #recommend p.txt3 {
+        font-size: 12px;
+        letter-spacing: -1px;
+        position: absolute;
+        left: 415px;
+        top: 250px;
+    }
+
+    /* 3개배너 모바일 */
+
+    #banner {
+        width: 100%;
+        background: #fff;
+    }
+
+    #banner ul li {
+        height: 80px;
+        width: 200px;
+    }
+
+    #banner ul li p {
+        font-size: 10px;
+    }
+
+    #banner ul li p span {
+        font-size: 13px;
+    }
+
+    /* 요리철학 모바일 */
+    #homecook {
+        width: 100%;
+        background: #fff;
+        display: flex;
+
+    }
+
+    #homecook ul li:first-child {
+        width: 350px;
+        height: 250px;
+        position: relative;
+        z-index: 2;
+        position: absolute;
+        left: 0;
+        top: -100px;
+
+
+
+    }
+
+    #homecook ul li p {
+        font-size: 12px;
+        letter-spacing: -1px;
+    }
+
+
+    #homecook ul li:nth-child(2) {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 1;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+
+    }
+
+    /* 소식 모바일 */
+    #news {
+        background: #fff;
+        width: 100%;
+
+    }
+
+    #news ul li {
+        width: calc(100%/6);
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #news ul li img {
+        width: 150px;
+    }
+
+    #news h2 {
+        font-size: 20px;
+        letter-spacing: -2px;
+    }
+
+    #news p.txt {
+        font-size: 12px;
+        letter-spacing: -1px;
+        color: #777;
+    }
+
+    #news p.txt1 {
+        font-size: 10px;
+        letter-spacing: -1px;
+        top: 190px;
+        left: 40px;
+    }
+
+    #news p.txt2 {
+        font-size: 10px;
+        letter-spacing: -1px;
+        top: 190px;
+        left: 80px;
+    }
+
+    #news p.txt3 {
+        font-size: 10px;
+        letter-spacing: -1px;
+        top: 190px;
+        right: 50px;
+    }
+
+    #news p.txt4 {
+        font-size: 10px;
+        letter-spacing: -1px;
+        top: 350px;
+        left: 50px;
+    }
+
+    #news p.txt5 {
+        font-size: 10px;
+        letter-spacing: -1px;
+        top: 350px;
+        left: 270px;
+    }
+
+    #news p.txt6 {
+        font-size: 10px;
+        letter-spacing: -1px;
+        top: 350px;
+        right: 70px;
+    }
+
+    /* 동영상 모바일 */
+    #moving {
+        width: 100%;
+        height: auto;
+        margin-top: -600px;
+    }
+
+    #moving iframe {
+        width: 100%;
+        height: 500px;
+    }
+
+    #moving h2 {
+        font-size: 30px;
+        letter-spacing: -3px;
+        top: 200px;
+    }
+
+    #moving p.txt {
+        font-size: 16px;
+        letter-spacing: -1px;
+        top: 250px;
+    }
+
+    #moving p.btn a {
+        font-size: 16px;
+        letter-spacing: -1px;
+        padding: 1px 15px;
+        top: 300px;
+    }
+
+    /* 리뷰 모바일 */
+    #review {
+        width: 100%;
+        background: #fff;
+    }
+
+    /* 고객센터 모바일 */
+    #customer {
+        width: 100%;
+        background: #fff;
+    }
+
+    #customer ul li {
+        width: 200px;
+        height: 150px;
+    }
+
+    #customer ul li img {
+        width: 90px;
+        height: 100px;
+    }
+
+    /* 하단메뉴 모바일 */
+
+    #down {
+        width: 100%;
+        height: auto;
+        background: #231f20;
+    }
+
+    #down p.txt a {
+        font-size: 10px;
+        letter-spacing: -1px;
+    }
+
+    /* 카피라이트 모바일 */
+    #footer {
+        width: 100%;
+        background: #fff;
+        position: relative;
+    }
+
+    #footer ul li p.txt span {
+        font-size: 3px;
+    }
+
+    #footer ul li p.txt {
+        font-size: 10px;
+    }
+
+    #footer ul li h2 {
+        font-size: 14px;
+        letter-spacing: -1px;
+    }
+
+    #footer ul li:nth-child(1) {
+        width: 300px;
+        height: 165px;
+        position: absolute;
+        left: 30px;
+        top: -10px;
+
+    }
+
+    #footer ul li:nth-child(2) {
+        width: 200px;
+        height: 165px;
+        position: absolute;
+        left: 30px;
+        top: 100px;
+
+
+    }
+
+    #footer ul li:nth-child(3) {
+
+        position: absolute;
+        left: 30px;
+        top: 200px;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* 모바일끝 */

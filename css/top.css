@@ -1,0 +1,234 @@
+/* 글씨체 */
+/* 배민 연성체 */
+@font-face {
+    font-family: 'BMYEONSUNG';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMYEONSUNG.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 배민 도현체 */
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 서울 한강장체 */
+@font-face {
+    font-family: 'SeoulHangangM';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 초기설정 */
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior:smooth ;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* 상단메뉴 */
+#wrap_header {
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    position:sticky;   
+    top: 0;
+    z-index:99999; 
+    
+   
+
+}
+
+#header {
+    width: 1300px;
+    height: 40px;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+
+
+
+
+
+#header p {
+    margin: 0 20px;
+}
+
+#header p img {
+    vertical-align: middle;
+}
+
+#header p a {
+    color: #777;
+    font-size: 13px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#header p a:hover {
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* 상단로고 */
+#wrap_logo {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    position: sticky;
+    top:40px;
+    z-index: 999999999;
+
+
+   
+}
+
+#logo {
+    width: 1300px;
+    height: 130px;
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+
+#logo p.img {
+    padding: 30px;
+}
+
+::placeholder {
+    color: #777777;
+}
+
+#logo p.txt input {
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    border: 1px solid #ddd;
+    background: url(../images/top_search_logo.jpg)no-repeat center right;
+    cursor: pointer;
+
+}
+
+#logo p.txt1 span {
+    color: #f79aba;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+#logo p.txt1 {
+    color: #777777;
+    letter-spacing: -1px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* 클릭메뉴 */
+#wrap_menu {
+    width: 100%;
+    background: #a3a099;
+
+    position: sticky;
+    top:170px;
+    
+    z-index: 999999999999;
+
+
+    
+   
+    
+    
+}
+
+#menu ul.txt {
+    width: 1300px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#menu>ul.txt>li {
+    position: relative;
+    width: calc(100%/6);
+    height: 50px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+
+
+}
+
+#menu ul.txt li a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+#menu ul.txt li a:hover {
+    color: #777;
+}
+
+
+
+#menu>ul.txt>li>ul.sub {
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    width: 130px;
+    display: none;
+}
+
+#menu>ul.txt>li>ul.sub>li>a {
+    width: 100%;
+    height: 50px;
+    display: block;
+    background: #a3a099;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu>ul.txt>li>ul.sub>li>a:hover {
+    background: #ddd;
+}
+
+
+

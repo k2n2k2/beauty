@@ -1,0 +1,541 @@
+/* 공지사항 */
+#notic {
+    width: 1300px;
+    height: 376px;
+    margin: 0 auto;
+ position: relative;}
+
+ #notic div.box {
+    width: 1300px;
+    height: 376px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    opacity: 0;
+}
+
+#notic div.box p.txt {
+    color: #fff;
+    font-size: 23px;
+    letter-spacing: -2px;
+    padding-top: 100px;
+
+}
+
+#notic div.box h2 {
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: -6px;
+
+}
+
+
+#notic:hover div.box {
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+/* 집쿡 공지사항 */
+#notice {
+    width: 1300px;
+    height: 330px;
+    margin: 0 auto;
+    background: #fff;
+    text-align: center;
+}
+
+#notice h2 {
+    padding-top: 30px;
+    color: #1c1c1b;
+    font-size: 45px;
+    letter-spacing: -4px;
+}
+
+#notice p.txt {
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+}
+
+#notice ul.t1 li select {
+    width: 97px;
+    height: 50px;
+    border: 1px solid #ddd;
+    margin-left: -800px;
+
+}
+
+#notice ul.t1 li option {
+    font-size: 17px;
+    letter-spacing: -1px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#notice ul.t1 li input {
+    width: 210px;
+    height: 50px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+::placeholder {
+    color: #000;
+}
+
+#notice ul.t1 li button {
+    background: #787877;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    letter-spacing: 1px;
+}
+
+
+#notice ul.t1 li:active button {
+    background: #ed0c11;
+}
+
+/* 공지사항표 */
+#table {
+    width: 1300px;
+    height: 540px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    
+}
+
+/* 공지사항표 */
+
+
+#table div.pyo ul {
+    width: 1200px;
+    height: 360px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  
+
+}
+
+#table div.pyo ul li {
+    border-bottom: 1px solid #ddd;
+    
+    height: 50px;
+    line-height: 50px;
+   
+  
+
+}
+
+#table div.pyo ul li p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    
+}
+
+#table div.pyo ul li p.nu {
+    position: absolute;
+    left: 10px; top:0;
+    color: #222222;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#table div.pyo ul li p.ti {
+    position: absolute;
+    left: 500px; top:0;
+    color: #222222;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#table div.pyo ul li p.wr {
+    position: absolute;
+    right: 200px; top:0;
+    color: #222222;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#table div.pyo ul li p.da {
+    position: absolute;
+    right: 100px; top:0;
+    color: #222222;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#table div.pyo ul li p.a
+{color: #222222;
+    font-size: 17px;
+    margin-left: 3px;
+    width: 50px;
+    letter-spacing: -1px;
+    margin-right: 300px;
+    
+   
+
+  
+
+}
+
+#table div.pyo ul li p.b
+{color: #222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+}
+
+#table div.pyo p.b i {
+    position: absolute;
+right: 50px;
+height: 50px;
+line-height: 50px;
+}
+#table div.pyo p.c
+{
+   color: #000;
+   background: #ccc;
+    height: 100px;
+    display: none;
+    font-size: 14px;
+    letter-spacing: -1px;
+
+
+}
+
+
+
+
+/* 집쿡공지사항 */
+/* #jibkuk_notic {
+    width: 1300px;
+    height: 870px;
+    margin: 0 auto;
+    background: pink;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#jibkuk_notic h2 {
+    text-align: center;
+    padding-top: 30px;
+    color: #1c1c1b;
+    font-size: 45px;
+    letter-spacing: -4px;
+}
+
+#jibkuk_notic p.txt {
+    text-align: center;
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+}
+
+#jibkuk_notic ul.t1 li select {
+    width: 97px;
+    height: 50px;
+    border: 1px solid #ddd;
+    margin-left: 20px;
+}
+
+#jibkuk_notic ul.t1 li select option {
+    font-size: 17px;
+    letter-spacing: -1px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#jibkuk_notic ul.t1 li input {
+    width: 210px;
+    height: 50px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+::placeholder {
+    color: #000;
+}
+
+#jibkuk_notic ul.t1 li button {
+    background: #787877;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    letter-spacing: 1px;
+}
+
+
+#jibkuk_notic ul.t1 li:active button {
+    background: #ed0c11;
+} */
+
+
+
+/* #jibkuk_notic div.notice_menu ul li {
+    border-bottom: 1px solid red;
+} */
+
+
+/* #table div.menu ul li ul li p {
+   
+    display: inline-block;
+    vertical-align: middle;
+
+    margin-top: -300px;
+}
+
+#table div.menu ul li ul li p.num {
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    font-weight: bold;
+    color: #222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+}
+
+#table div.menu ul li ul li p.title {
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+    font-weight: bold;
+
+
+
+}
+
+#table div.menu ul li ul li p.writer {
+    position: absolute;
+    top: 600px;
+   right: 300px;
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+    font-weight: bold;
+
+
+
+}
+
+#table div.menu ul li ul li p.date {
+    position: absolute;
+    top: 600px;
+    right: 100px;    
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+    font-weight: bold;
+
+
+
+}
+
+
+#table div.menu ul li ul li p.noc {
+    position: absolute;
+    top: 650px;
+    left: 50px;
+   
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+}
+
+#table div.menu ul li ul li p.txt {
+    position: absolute;
+    top: 650px;
+    left: 400px;
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+
+
+}
+
+#table div.menu ul li ul li p.wri {
+    position: absolute;
+    top: 650px;
+   right: 300px;
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+
+
+}
+
+#table div.menu ul li ul li p.day {
+    position: absolute;
+    top: 650px;
+    right: 100px;    
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+
+
+}
+
+
+#table div.menu ul li ul li p.three {
+    position: absolute;
+    top: 690px;
+    left: 50px;
+   
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+}
+
+#table div.menu ul li ul li p.txt1 {
+    position: absolute;
+    top: 690px;
+    left: 400px;
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+
+
+}
+
+#table div.menu ul li ul li p.wri_1 {
+    position: absolute;
+    top: 690px;
+   right: 300px;
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+
+
+}
+
+#table div.menu ul li ul li p.day_1 {
+    position: absolute;
+    top: 690px;
+    right: 100px;    
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;}
+
+    #table div.menu ul li ul li p.second {
+        position: absolute;
+        top: 730px;
+        left: 50px;
+       
+        color: #222222;
+        font-size: 17px;
+        letter-spacing: -1px;
+    
+    }
+    
+    #table div.menu ul li ul li p.txt2 {
+        position: absolute;
+        top: 730px;
+        left: 400px;
+        color: #222222;
+        font-size: 17px;
+        letter-spacing: -1px;
+    
+    
+    
+    }
+    
+    #table div.menu ul li ul li p.wri_2 {
+        position: absolute;
+        top: 730px;
+       right: 300px;
+        color: #222222;
+        font-size: 17px;
+        letter-spacing: -1px;
+    
+    
+    
+    }
+    
+    #table div.menu ul li ul li p.day_2 
+    {
+        position: absolute;
+        top: 730px;
+        right: 100px;    
+        color: #222222;
+        font-size: 17px;
+        letter-spacing: -1px;
+
+
+
+}
+
+
+#table div.menu ul li ul li p.first {
+    position: absolute;
+    top: 770px;
+    left: 50px;
+   
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+}
+
+#table div.menu ul li ul li p.txt3 {
+    position: absolute;
+    top: 770px;
+    left: 400px;
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+
+
+}
+
+#table div.menu ul li ul li p.wri_3 {
+    position: absolute;
+    top: 770px;
+   right: 300px;
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+
+
+}
+#table div.menu ul li ul li p.day_3 
+{
+    position: absolute;
+    top: 770px;
+    right: 100px;    
+    color: #222222;
+    font-size: 17px;
+    letter-spacing: -1px;
+
+
+
+}
+ 
+ */

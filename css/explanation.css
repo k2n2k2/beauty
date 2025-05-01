@@ -1,0 +1,264 @@
+/* 창업문구 */
+#explanation {
+    width: 1300px;
+    height: 376px;
+    background: pink;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+#explanation div.box {
+    width: 1300px;
+    height: 376px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    opacity: 0;
+}
+
+#explanation div.box p.txt {
+    color: #fff;
+    font-size: 23px;
+    letter-spacing: -2px;
+    padding-top: 100px;
+
+}
+
+#explanation div.box h2 {
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: -6px;
+
+}
+
+
+#explanation:hover div.box {
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+/* 창업절차 */
+#process {
+    width: 1300px;
+
+    margin: 0 auto;
+    background: #fff;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+#process h2 {
+    color: #000;
+    font-size: 28px;
+    letter-spacing: -2px;
+    display: inline-block;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+}
+
+#process p.txt {
+    color: #000;
+    font-size: 22px;
+    letter-spacing: -2px;
+    margin-top: 10px;
+}
+
+#process ul {
+    width: 864px;
+    height: 600px;
+
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#process ul li {
+    width: 380px;
+    height: 140px;
+
+
+
+}
+
+
+#process ul li:nth-child(1) {
+    background:
+        url(../images/co_2.jpg)no-repeat;
+}
+
+#process ul li:nth-child(2) {
+    background:
+        url(../images/co_3.jpg)no-repeat;
+}
+
+#process ul li:nth-child(3) {
+    background:
+        url(../images/co_4.jpg)no-repeat;
+}
+
+#process ul li:nth-child(4) {
+    background:
+        url(../images/co_5.jpg)no-repeat;
+}
+
+#process ul li:nth-child(5) {
+    background:
+        url(../images/co_6.jpg)no-repeat;
+}
+
+#process ul li:nth-child(6) {
+    background:
+        url(../images/co_7.jpg)no-repeat;
+}
+
+#process ul li:nth-child(7) {
+    background:
+        url(../images/co_8.jpg)no-repeat;
+}
+
+#process ul li p.txt {
+    color: #f42718;
+    font-size: 21px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+#process ul li p.txt span {
+    color: #000;
+}
+
+#process ul li p.txt small {
+    color: #000;
+    font-size: 15px;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+
+/* 테이블 */
+#table {
+    width: 1300px;
+    height: 1168px;
+    margin: 10px auto;
+    background:
+    #fff;
+    text-align: center;
+   
+  
+     
+}
+
+#table h2 {
+    color: #f78718;
+    font-size:24px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-left: 200px;
+   
+}
+
+
+table tr.box
+{
+    background: #f78718;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    
+    
+    
+
+}
+
+table {
+    margin: 20px auto;
+    
+}
+
+table tr.box td.a {
+    width: 125px;
+    height: 125px;
+    border: 1px solid #ddd;
+    
+}
+table tr.box td.b {
+    width: 274px;
+    height: 52px;
+    border: 1px solid #ddd;
+}
+
+table tr.box td.c {
+    width: 433px;
+    height: 126px;
+    border: 1px solid #ddd;
+}
+
+table tr.box2 td.a {
+    width: 125px;
+    height: 68px;
+   background: #f9f9f9;
+   font-size: 19px;
+   letter-spacing: -1px;
+   font-weight: bold;
+   border: 1px solid #ddd;
+}
+
+
+table tr.box2 td.a1
+{
+    background:  #f78718;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    width: 125px;
+    height: 53px;
+    border: 1px solid #ddd;
+
+}
+
+table tr.box2 td.a2{
+    background: #f78718;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    border: 1px solid #ddd;
+}
+
+
+
+    table tr.box2 td.aa {
+        text-align: left;
+        background: #fff;
+        border: 1px solid #ddd;    }
+
+table tr.box2 td.aaa {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+table tr.box2 td.a3
+{  width: 435px;
+    height: 45px;
+    background:#f78718;
+    border: 1px solid #ddd;
+}
+#table p {
+    text-align: left;
+    font-size: 17px;
+    letter-spacing: -1px;
+    color: #000;
+   margin-left: 200px;
+    
+}
+

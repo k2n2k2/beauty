@@ -1,0 +1,54 @@
+/* BI 메인 */
+#bimain {width: 1300px; height:580px;
+margin: 0 auto; background: url(../images/bi_main.jpg)no-repeat;
+position: relative;}
+#bimain p.txt {position: absolute; top:250px; left: 660px;
+color: #dedddd; font-size: 24px; letter-spacing: -1px;}
+#bimain h2 {position: absolute; top:280px; left: 520px;
+  color: #fdd000; font-size: 57px; letter-spacing: -5px;}
+
+  #bi_bi {width: 1300px ; height: 1140px;
+  margin: 0 auto; background: #fff;
+position: relative;} 
+  #bi_bi ul li:first-child {width: 620px; height: 520px;
+ position:absolute;
+top:15px; left:  10px;}
+  #bi_bi ul li:nth-child(2) {width: 550px; height: 196px;
+   position:absolute;
+    top:30px; right: 10px;}
+    #bi_bi ul li:nth-child(3) {width: 300px; height: 160px;
+      position:absolute;
+      top:300px;right: 300px;}
+      #bi_bi ul li:nth-child(4) {width: 790px; height: 210px;
+       position:absolute;
+        top:700px; left: 200px;}
+   
+        #bi_bi ul li p.txt{color: #959595;
+        font-size: 24px; letter-spacing: -2px;
+      }
+        #bi_bi ul li h2 {color: #1c1c1b;
+        font-size: 57px; letter-spacing: -5px;}
+        #bi_bi ul li pre {color: #767675;
+        font-size: 16px; letter-spacing: -1px;}
+        #bi_bi ul li p.btn a {color: #25231a;
+        font-size: 16px; letter-spacing: -1px;
+        background: #fdd000; display: inline-block;
+      font-weight: bold; box-sizing: border-box;
+    padding: 10px 15px 15px 10px;}
+    #bi_bi ul li p.txt2 {
+    margin-top: -100px;
+  color: #000000;font-size: 17px;
+font-weight: bold; letter-spacing: -1px;
+margin-left: 100px;} 
+#bi_bi ul li p.txt3 {
+  margin-top: 10px;
+color: #c3c3c3;font-size: 17px;
+ letter-spacing: -1px;
+margin-left: 100px;} 
+#bi_bi ul li p.txt4 {
+  margin-top: 10px;
+color: #c3c3c3;font-size: 12px;
+ letter-spacing: -1px;
+margin-left: 100px;} 
+#bi_bi ul li p.banner img {width: 800px;
+ }

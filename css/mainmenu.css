@@ -1,0 +1,281 @@
+#mainmenu {
+    width: 1300px;
+    height: 1070px;
+    margin: 0 auto;
+    background: #fff;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#mainmenu h2 {
+    color: #000;
+    font-size: 41px;
+    font-size: 41px;
+    letter-spacing: -4px;
+    font-weight: normal;
+   
+
+}
+
+#mainmenu p.txt {
+    color: #000;
+    font-size: 21px;
+    letter-spacing: -2px;
+
+
+}
+
+#mainmenu ul {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#mainmenu ul li.box1 {
+    width: 484px;
+    height: 400px;
+    background: #faf8f7;
+
+}
+
+#mainmenu ul li.box1 p.btn {
+    width: 134px;
+    height: 90px;
+}
+
+
+
+
+
+#mainmenu ul li.box1 p {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#mainmenu ul li.box1 p.txt1 {
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+    letter-spacing: -1px;
+
+}
+
+
+#mainmenu ul li.box1 p.txt2 {
+
+    color: #000;
+    font-size: 14px;
+    letter-spacing: -1px;
+
+}
+
+#mainmenu ul li.box1 p.txt3 {
+
+    color: #000;
+    font-size: 21px;
+    letter-spacing: -2px;
+    font-weight: bold;
+
+}
+
+#mainmenu ul li.box1 p.line a {
+
+    color: #000;
+    font-size: 15px;
+    letter-spacing: -1px;
+    border: 1px solid #7d7c7c;
+    display: inline-block;
+    padding: 4px 6px 6px 4px;
+
+
+
+}
+
+
+#mainmenu ul li.box1 p.line a:hover 
+{
+    border: 1px solid #ddd;
+}
+
+
+
+
+#mainmenu ul li.box2 {
+    width: 400px;
+    height: 400px;
+    background: #d5d4d0;
+}
+
+
+#mainmenu ul li.box2 p.img {
+    width: 336px;
+    height: 300px;
+
+    margin: 20px auto;
+}
+
+#mainmenu ul.push {
+    margin-left: 300px;
+}
+
+#mainmenu ul.push li.box2 {
+    background: #e1e0e5;
+}
+
+#mainmenu ul.push li.box1 {
+    background: #fcf3ed;
+}
+
+/* 메인메뉴 */
+#seafood {
+    width: 1300px;
+    height: 2968px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+#seafood h2 {
+    color: #000;
+    font-size: 41px;
+    letter-spacing: -4px;
+
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+    text-align: center;
+}
+
+#seafood ul {
+    
+    width: 1200px;
+    
+
+   margin:  10px auto;
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+   
+    
+ }
+    
+   
+    
+   
+    
+
+
+#seafood ul li {
+    width: calc(95%/3);
+    height: 274px;
+    background: #fff;
+    margin: 10px;
+    box-sizing: border-box;
+border: 1px solid #ddd;
+position: relative;}
+
+
+#seafood ul li p.img  {
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}
+
+#seafood ul li p.img:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+
+}
+#seafood ul li div.box p.txt {
+    text-align: center;
+    color:#222;
+    font-size:16px ;
+    letter-spacing: -1px ;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+#seafood ul li div.box p.txt span {
+    color:#dabb52;
+    font-size: 13px;
+    font-weight: normal;
+
+}
+
+#seafood ul li div.box p.txt1 {
+    text-align: center;
+    color:#ddd;
+    font-size:12px ;
+    letter-spacing: -1px ;
+    
+
+}
+
+#seafood ul li div.box p.icon {
+    color: #cdc;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#seafood ul li div.box {
+    width: 100%;
+    height: auto;
+    background:rgba(204,204,204,0.1);
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: absolute;
+   
+    bottom: 0;
+    opacity: 0;
+    
+}
+
+#seafood ul li:hover div.box
+{opacity: 1;
+transition: 1s;
+cursor: pointer;}
+
+/* 이벤트 */
+#event {
+    width: 1300px;
+    height: 1377px;
+    margin: 0 auto;
+    background:  #fff;
+   
+    text-align: center;
+}
+
+#event h2 {
+    color:#000;
+    font-size :41px ;
+    letter-spacing:-4px;
+    font-weight: normal;
+
+}
+
+
+#event p.txt {
+    color:#000;
+    font-size :21px ;
+    letter-spacing:-2px;
+
+}
+
+#event ul {
+    width: 1300px;
+    height: 830px;
+   
+    display: flex;
+    justify-content: center;
+}
+
+#event ul li {
+    width: calc(100%/2);
+    height: 830px;
+    margin-top: 30px;
+ 
+    
+}

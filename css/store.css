@@ -1,0 +1,40 @@
+/* 매장 */
+#wrap_store {
+    width: 100%;
+    background: #fff;
+}
+
+#store {
+    width: 1300px;
+
+    margin: 30px auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+
+
+#store p.txt1 {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: -2px;
+    position: absolute;
+    top: 290px;
+    left: 550px;
+    z-index: 999;
+    font-weight: bold;
+
+}
+
+
+#store h2 {
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: -6px;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    z-index: 999;
+    font-weight: bold;
+}

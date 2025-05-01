@@ -1,0 +1,120 @@
+/* 이벤트 메인 */
+#event_main {
+    width: 1300px;
+    height: 376px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#event_main div.box {
+    width: 1300px;
+    height: 376px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    opacity: 0;
+}
+
+#event_main div.box p.txt {
+    color: #fff;
+    font-size: 23px;
+    letter-spacing: -2px;
+    padding-top: 100px;
+
+}
+
+#event_main div.box h2 {
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: -6px;
+
+}
+
+
+#event_main:hover div.box {
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+/* 이벤트배너 */
+#event_banner {
+    width: 1300px;
+    height: 3220px;
+    background: #fff;
+    margin: 50px auto;
+
+
+}
+
+#event_banner ul {
+    width: 1134px;
+    height: 3220px;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#event_banner ul li {
+    width: 470px;
+    height: 620px;
+    border: 1px solid #ddd;
+    margin-left: 20px;
+
+}
+
+#event_banner ul li:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+/* 버튼 */
+#banner_btn {
+    width: 1300px;
+    height: 385px;
+    margin: 0 auto;
+    background: #fff;
+    text-align: center;
+    
+}
+
+#banner_btn p.btn {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    
+   
+    
+
+}
+
+#banner_btn p.btn input {
+    color: #363635;
+    font-size: 15px;
+    letter-spacing: -1px;
+    width: 63px;
+    height: 39px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fff;
+    
+
+}
+
+#banner_btn ul li.cilck p.btn {
+    left: 63px;
+    
+}
+
+
+#banner_btn ul li.click p.btn input:active
+{
+    background: #ccc;
+}

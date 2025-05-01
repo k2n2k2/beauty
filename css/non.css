@@ -1,0 +1,31 @@
+
+       /* 비회원 */
+#non {width: 500px;
+height: 508px;
+background: #fff;
+margin: 0 auto;
+text-align: center;} 
+#non p.log img  {margin-top: 15px;
+    box-sizing: border-box;}
+#non p.log {border-bottom: 1px solid #ddd;
+display: inline-block; }
+#non ul {width: 360px; height: 340px; border: 1px
+    solid #ddd; margin: 30px auto; text-align: center;}
+#non ul li p.txt {color:#222222; font-size: 13px;
+letter-spacing: -1px; padding-top: 40px;
+font-weight: bold;} 
+#non ul li p.txt1 input {width: 290px; height: 40px;
+border: 1px solid #ddd;
+margin-top:10px; padding-left: 10px; box-sizing: border-box;}
+#non ul li p.txt2 input {width: 290px; height: 40px;
+color: #fff;
+background: #ab5edc;
+margin-top:10px; text-align: center; box-sizing: border-box;
+font-size: 21px; font-weight: bold;}
+
+::placeholder {color: #cccccc;}
+#non ul li p.txt3 {width: 290px; height: 72px;
+background: #f3f3f3; border: 1px solid #ddd;
+margin:  20px auto; font-size: 12px; box-sizing: border-box; padding-top: 15px;}
+
+

@@ -1,0 +1,139 @@
+/* 로그인버전 */
+
+.modal ul.log_in {
+    width: 1300px;
+    height: 1000px;
+    background: #fff;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+
+.modal ul.log_in li.mainlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.modal ul.log_in h2 {margin-top: 15px;}
+.modal ul.log_in p.txt {
+    font-size: 15px;
+    color: #000;
+    letter-spacing: -1px;
+    padding-top: 30px;
+}
+
+.modal ul.log_in li.easylogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.modal ul.log_in p.txt1 {
+    width: 1300px;
+    height: 4px;
+    background: #ddd;
+    margin: 50px auto;
+    position: relative;
+}
+
+.modal ul.log_in p.txt1 span {
+    display: block;
+    width: 100px;
+    height: 40PX;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    transform: translateX(-50%);
+    color: #ddd;
+}
+
+/* 아이디 비번로그 */
+
+.modal ul.log_in li.id input {
+    width: 337px;
+    height: 49px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.modal ul.log_in li.pass input {
+    width: 337px;
+    height: 49px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.modal ul.log_in li.save input {
+    width: 16px;
+    height: 16px;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+       
+}
+
+.modal ul.log_in li.save {margin-top: 20px;}
+
+
+
+
+
+
+
+
+
+.modal ul.log_in li.find a {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;}
+    .modal ul.log_in li.find
+    {margin-top: 50px;}
+
+
+
+.modal ul.log_in li.find a span {
+    border: 1px solid #ddd;
+    ;
+    }
+        
+
+::placeholder {
+    color: #222222;
+}
+
+.modal ul.log_in li.lo input {
+    width: 399px;
+    height: 43px;
+    background: #000;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 70px;
+
+}
+
+.modal ul.log_in li.lo input:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+       
+     
+   

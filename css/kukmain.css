@@ -1,0 +1,743 @@
+
+/* 메인이미지 */
+#wrap_main {
+    width: 100%;
+    background: #ebe8e2;
+    overflow: hidden;
+}
+
+#main {
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+#main h2 {
+    display: inline-block;
+
+    color: #333333;
+    font-size: 90px;
+    letter-spacing: -1px;
+    font-family:'BMYEONSUNG';
+    font-weight: normal;
+
+    position: absolute;
+    left: 60px;
+    top: 135px;
+
+    text-align: right;
+}
+
+#main h2 span {
+    color: #ef4c14;
+    font-size: 78px;
+    letter-spacing: 2px;
+    font-family: 'BMYEONSUNG';
+    font-weight: normal;
+}
+
+#main p a {
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: -1px;
+    box-sizing: border-box;
+    background: #9d9c9b;
+    font-size: 22px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 30px;
+
+    position: absolute;
+    left:250px;
+    top:330px;
+}
+
+#main p a:hover {
+    color: #777;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+
+
+#main ul {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#main ul li:first-child {
+    width: 549px;
+    height: 544px;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 430px;
+    top: 0px;
+}
+
+#main ul li:nth-child(2) {
+    width: 408px;
+    height: 276px;
+    border: 1px solid #ddd;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#main ul li:last-child {
+    width: 356px;
+    height: 199px;
+    border: 1px solid #ddd;
+    position: absolute;
+    right: 52px;
+    top: 290px;
+}
+
+#main ul li:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+
+/* 가성비&첫주문&정기배송 */
+#wrap_order {
+    width: 100%;
+    background: #fff;
+    height: auto;
+}
+
+#order {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+
+#order ul li {
+    width: 1020px;
+    height: 166px;
+    margin: 70px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+#order ul li p.txt {
+    position: relative;
+    color: #777;
+    font-size: 17px;
+    letter-spacing: -1px;
+    left: 255px;
+    top: 20px;
+    font-weight: bold;
+}
+
+
+#order ul li h2 {
+    color: #333333;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-size: 30px;
+    letter-spacing: -3px;
+}
+
+#order li h2 span {
+    color: #f56294;
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+
+#order ul li h2 small {
+    color: #444;
+    font-size: 28px;
+    letter-spacing: -1px;
+}
+
+#order ul li small.txt {
+    position: absolute;
+    left: 360px;
+    top: 95px;
+    color: #444444;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#order ul li:first-child {
+    background:
+        url(../images/banner1_pic.jpg)no-repeat right #dfdfdf;
+}
+
+
+
+/* 3%추가 */
+#order ul li:last-child {
+    background: url(../images/banner2_pic1.jpg);
+    cursor: pointer;
+}
+
+#order ul li h3 {
+    color: #333333;
+    position: relative;
+    left: 350px;
+    top: 20px;
+    font-size: 34px;
+    letter-spacing: -3px;
+}
+
+#order ul li h4 {
+    color: #8f1b14;
+    position: relative;
+    left: 490px;
+    top: 20px;
+    font-size: 34px;
+    letter-spacing: -3px;
+}
+
+#order ul li h4 span {
+    color: #333333;
+}
+
+/* 정기배송 */
+#order ol {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#order ol li {
+    width: 200px;
+    height: 270px;
+    border: 1px solid #ddd;
+    margin: 50px 0;
+    text-align: center;
+}
+
+#order ol li p {
+    margin-bottom: 7px;
+}
+
+#order ol li p.img {
+    width: 100%;
+    height: 200px;
+
+    overflow: hidden;
+    position: relative;
+}
+
+#order ol li p.img span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+
+    font-size: 13px;
+    letter-spacing: -1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+}
+
+#order ol li p.img:hover span {
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#order ol li p.img img {
+    width: 100%;
+    height: 100%;
+}
+
+#order ol li p.txt {
+    font-size: 14px;
+    color: #666;
+    letter-spacing: -1px;
+}
+
+#order ol li p.txt span {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+#order ol li p.txt1 {
+    font-family: 'BMDOHYEON';
+    font-size: 16px;
+    color: #956a44;
+    letter-spacing: -1px;
+
+}
+
+#order ol li p.txt1 span {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* 적극추천 */
+#wrap_recommend {
+    width: 100%;
+    background: #fff;
+    height: auto;
+}
+
+#recommend {
+    width: 1300px;
+    height: 560px;
+    margin: 30px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+#recommend ul li {
+    width: 1020px;
+    height: 440px;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+
+
+#recommend ul li h2 {
+    color: #333333;
+    font-size: 30px;
+    letter-spacing: -3px;
+    position: absolute;
+    top: 120px;
+    left: 450px;
+}
+
+#recommend ul li h2 span {
+    color: #8f1b14;
+    letter-spacing: 3px;
+}
+
+#recommend ul li p.star1 {
+    flex-wrap: wrap;
+    position: absolute;
+    top: 100px;
+    left: 660px;
+    color: #f26c4f;
+}
+
+#recommend ul li p.star2 {
+    flex-wrap: wrap;
+    position: absolute;
+    top: 100px;
+    left: 695px;
+    color: #f26c4f;
+}
+
+#recommend ul li p.star3 {
+    flex-wrap: wrap;
+    position: absolute;
+    top: 100px;
+    left: 727px;
+    color: #f26c4f;
+}
+
+#recommend ul li p.star4 {
+    flex-wrap: wrap;
+    position: absolute;
+    top: 100px;
+    left: 760px;
+    color: #f26c4f;
+}
+
+#recommend ul div.box ul li {
+    width: 119px;
+    height: 119px;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+
+
+#recommend ul div.box ul {
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+#recommend p.txt1 {
+    color: #333333;
+    font-size: 20px;
+    letter-spacing: -2px;
+    position: absolute;
+    font-weight: bold;
+    left: 410px;
+    top: 350px;
+}
+
+#recommend p.txt1 span {
+    position: absolute;
+    left: 25px;
+}
+
+#recommend p.txt2 {
+    color: #333333;
+    font-size: 20px;
+    letter-spacing: -2px;
+    position: absolute;
+    font-weight: bold;
+    left: 590px;
+    top: 350px;
+}
+
+#recommend p.txt2 span {
+    position: absolute;
+    left: 25px;
+}
+
+#recommend p.txt3 {
+    color: #333333;
+    font-size: 20px;
+    letter-spacing: -2px;
+    position: absolute;
+    font-weight: bold;
+    left: 780px;
+    top: 350px;
+}
+
+#recommend p.txt3 span {
+    position: absolute;
+    left: 25px;
+}
+
+/* 3개배너 */
+#banner {
+    width: 1300px;
+    height: 310px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#banner ul li {
+    width: 300px;
+    height: 90px;
+}
+
+#banner ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 60px;
+}
+
+#banner ul li:first-child {
+    background: #d8e5b0 url(../images/banner_mobile.jpg)no-repeat right;
+    position: relative;
+}
+
+#banner ul li:nth-child(2) {
+    background: url(../images/banner_mobile2.jpg)no-repeat right;
+    position: relative;
+}
+
+#banner ul li:nth-child(3) {
+    background: url(../images/banner_mobile3.jpg)no-repeat right;
+    position: relative;
+}
+
+#banner ul li p span {
+    color: #777777;
+    font-size: 17px;
+}
+
+#banner ul li p {
+    color: #333333;
+    letter-spacing: -1px;
+    font-size: 19px;
+    position: absolute;
+    top: 23px;
+    left: 20px;
+    font-weight: bold;
+}
+
+#homecook {
+    width: 1300px;
+    height: 540px;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    position: relative;
+}
+
+#homecook ul li:first-child {
+    width: 580px;
+    height: 360px;
+    background: #e8dccd;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+#homecook ul li:nth-child(2) {
+    width: 370px;
+    height: 380px;
+    background: url(../images/bbb.jpg)no-repeat;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
+
+#homecook ul li h1 {
+    font-size: 77px;
+    font-family: '맑은 고딕';
+    position: absolute;
+    right: 0;
+    color: #000;
+    opacity: 0.6;
+}
+
+#homecook ul li h2 {
+    font-size: 40px;
+    padding: 50px 70px;
+    color: #333;
+    letter-spacing: -4px;
+}
+
+#homecook ul li h2 span {
+    color: #8f1b14;
+}
+
+#homecook ul li p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #777777;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+/* 소식 */
+#wrap_news {
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+#news {
+    width: 1300px;
+    height: 1060px;
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+}
+
+
+#news ul {
+    display: flex;
+    justify-content:
+        space-evenly;
+    justify-content:
+        space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+#news ul li {
+    width: calc(90%/3);
+    height: 350px;
+    border-radius: 50%;
+    margin: 60px 5px;
+
+}
+
+#news h2 {
+    color: #333333;
+    font-size: 48px;
+    letter-spacing: -4px;
+    border-top: 7px solid #000;
+    display: inline-block;
+}
+
+#news h2:hover  {color: #956a44;
+cursor: pointer;}
+
+#news p.txt {
+    font-size: 24px;
+    color:#777;
+    letter-spacing: -2px;
+}
+
+#news p.txt1 {
+    font-size: 18px;
+    color: #333;
+    letter-spacing: -1px;
+    position: absolute;
+    top:500px; left: 100px;
+}
+
+#news p.txt2 {
+    font-size: 18px;
+    color: #333;
+    letter-spacing: -1px;
+    position: absolute;
+    top:500px; left: 550px;
+}
+
+#news p.txt3 {
+    font-size: 18px;
+    color: #333;
+    letter-spacing: -1px;
+    position: absolute;
+    top:500px; right: 100px;
+}
+
+#news p.txt4 {
+    font-size: 18px;
+    color: #333;
+    letter-spacing: -1px;
+    position: absolute;
+    bottom: 50px; left: 100px;
+}
+
+#news p.txt5 {
+    font-size: 18px;
+    color: #333;
+    letter-spacing: -1px;
+    position: absolute;
+    bottom: 50px; left: 550px;
+}
+
+#news p.txt6 {
+    font-size: 18px;
+    color: #333;
+    letter-spacing: -1px;
+    position: absolute;
+    bottom: 50px; right: 130px;
+}
+
+/* 동영상 */
+
+#moving {width: 1300px;
+height: 750px; margin: 0 auto;
+background: #fff;
+position: relative;}
+#moving h2 {position:absolute;
+color:
+#111;
+left: 100px; top:130px;
+font-size: 48px;
+letter-spacing: -4px;
+}
+#moving p.txt{position:absolute;
+    color:
+  #fffefe;
+    left: 100px; top:200px;
+    font-size: 26px; letter-spacing: -2px;}
+#moving p.btn a {position:absolute;
+    color:
+  #fffefe;
+    left: 100px; top:300px;
+    font-size: 26px; letter-spacing: -2px;
+    display: inline-block;
+background: #ff6400;
+box-sizing: border-box;
+padding: 3px 30px;}
+
+#moving p.btn a:hover {
+    background: #fffefe;
+    color: #ff6400 ;
+}
+/* 리뷰 */
+#review {width: 1300px;
+height: 920px;margin: 0 auto;
+background: #fff;
+text-align: center;}
+#review ul {display: flex;
+    justify-content:
+    space-evenly;
+flex-wrap: wrap;
+align-items: center;}
+#review ul li {border: 1px
+    solid #dedede;
+    background: #f2f4f7;
+    width: 297px; height: 510px;
+    margin-top: 100px;
+    position: relative;
+    
+}
+#review h2 {color: #333333;
+font-size: 48px; letter-spacing: -4px;
+display: inline-block;
+border-top: 7px solid #000;
+text-align: center;
+margin-top: 80px;
+line-height: 1.8;
+}
+
+#review p.txt {font-size: 24px;
+letter-spacing: -2px;
+color: #777777;}
+
+#review ul li h3 {color: #070707;
+font-size: 23px; letter-spacing: -2px;
+font-family: 'SeoulHangangM';
+display: inline-block; border-bottom: 2px 
+solid
+#636465; position: absolute;
+top:300px; right: 20px;
+font-style: italic; line-height: 1.2;}
+#review p.comma {color: #414141;
+font-size: 73px; font-weight: bold;
+position: absolute; top:310px; left: 2px;}
+
+#review p.txt1 {font-size: 14px;
+letter-spacing: -1px; color: #777777;
+padding-top: 40px;}
+
+#review p.comma1 {color: #414141;
+    font-size: 73px; font-weight: bold;
+    position: absolute; top:450px; right: 2px;}
+
+#review p.txt2 {font-size: 17px;
+letter-spacing: -1px; color: #000000;
+
+font-weight: bold;
+position: absolute; bottom: 50px; left: 15px;}
+
+#review p.txt2 small {font-size: 15px;
+letter-spacing: -1px;}
+
+
+
+
+
+
+
+
+
+
+
+

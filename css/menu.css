@@ -1,0 +1,37 @@
+/* 메뉴페이지 */
+
+#wrap_menuin{width: 100%;
+background: #fff;}
+#menuin {width: 1300px;
+
+margin:30px auto;
+box-sizing: border-box;
+position: relative;}
+
+#menuin p.txt1 {color: #fff;
+font-size: 60px;
+letter-spacing: -6px;
+position: absolute; top:70px; left: 60px;
+z-index: 999; font-weight: bold;
+
+}
+#menuin p.txt1 span {
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-family: 'Arial';
+    }
+
+    #menuin p.txt2 {color: #fff;
+        font-size: 51px;
+        letter-spacing: -5px;
+        position: absolute; top:300px; left: 500px;
+        z-index: 999; font-weight: bold;}
+        
+        #menuin p.txt3 {color: #fff;
+            font-size: 20px;
+            letter-spacing: -2px;
+            position: absolute; top:370px; left: 500px;
+            z-index: 999; font-weight: bold;}
+
+    #menuin div.photo p.img img {filter:brightness(0.6);}

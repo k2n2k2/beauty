@@ -1,0 +1,30 @@
+/* 채용 */
+#info {
+    width: 1300px;
+height: 716px;
+margin: 0 auto;
+background: 
+url(../images/hiring_main.jpg)no-repeat;
+box-sizing: border-box;
+position: relative;
+}
+
+
+#info p.title {
+    color: #1c1c17;
+    font-size: 38px;
+    letter-spacing: -3px;
+    position: absolute;
+    bottom: 40px;
+    right:  350px;
+    
+}
+
+#info p.title span {
+    color:#000000;
+    font-size: 64px;
+    letter-spacing: -6px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
